@@ -10,7 +10,6 @@ String getBaiName(String defaultBaiName) {
   if (baiInput == null || baiInput.trim().isEmpty) {
     return defaultBaiName;
   }
-
   return baiInput.trim();
 }
 
