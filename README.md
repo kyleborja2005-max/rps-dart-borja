@@ -2,7 +2,7 @@
 
 
 Name: Kyle Borja
-Section: BSIT - YOUR SECTION
+Section: BSIT - 3A (ILFV3)
 
 ## How to Run
 
