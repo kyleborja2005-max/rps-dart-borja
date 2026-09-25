@@ -2,7 +2,7 @@ import 'dart:io';
 
 List<String> baiMoves = ['rock', 'paper', 'scissors'];
 
-/// Gets the name of a player.
+/// Gets Bai's name.
 String getBaiName(String defaultBaiName) {
   stdout.write('Enter $defaultBaiName name: ');
   String? baiInput = stdin.readLineSync();
@@ -14,7 +14,7 @@ String getBaiName(String defaultBaiName) {
   return baiInput.trim();
 }
 
-/// Gets a player's move.
+/// Gets bai's move.
 String getBaiMove(String baiName) {
   stdout.write('$baiName, enter your move: ');
   String? baiInput = stdin.readLineSync();
@@ -32,7 +32,7 @@ void main() {
 
   String baiMoveOne = getBaiMove(playerBaiOne);
 
-  // Hide Player 1's move.
+  // Hide bai's move.
   for (int i = 0; i < 30; i++) {
     print('');
   }
